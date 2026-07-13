@@ -69,3 +69,20 @@ outputs/
 The Laplace engine is a fast approximation for development and debugging. Manuscript-level claims about posterior mass and PVS should use the PyMC or Stan MCMC engines.
 
 PVS is implemented as a diagnostic of posterior or posterior-predictive admissibility. It is not implemented as a universal acceptance threshold or as a replacement for convergence diagnostics, posterior predictive checks, residual diagnostics, prior sensitivity, or domain expertise.
+
+
+## Archived data and posterior traces
+
+Large reproducibility artifacts are archived on Zenodo:
+
+https://doi.org/10.5281/zenodo.21344153
+
+The Zenodo archive includes:
+
+- `posterior_traces_mass_150_ta099.zip`
+- `posterior_traces_pvs_150_ta099.zip`
+- `synthetic_data_and_truth_150_ta099.zip`
+- `final_tables_figures_metadata_150_ta099.zip`
+- `SHA256SUMS_release_artifacts.txt`
+
+Posterior trace files correspond to the final manuscript run in `outputs_manuscript_150_ta099`. They were verified by simulation identifier, workflow type, posterior dimensions, and divergent transition counts against `metrics_raw.csv`. The verification returned 300/300 matching trace files and zero mismatches.
