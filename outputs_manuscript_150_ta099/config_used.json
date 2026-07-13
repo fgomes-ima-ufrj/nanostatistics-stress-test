@@ -1,0 +1,65 @@
+{
+  "dgp": {
+    "n_labs": 3,
+    "n_batches": 4,
+    "n_exposure_levels": 8,
+    "n_replicates": 3,
+    "mass_min": 0.05,
+    "mass_max": 5.0,
+    "mass_spacing": "log",
+    "epsilon": 1e-09,
+    "alpha_A": -0.25,
+    "beta_A": 0.95,
+    "sigma_lab_A": 0.18,
+    "sigma_batch_A": 0.12,
+    "sigma_obs_A": 0.1,
+    "y0": 0.04,
+    "ymax": 0.9,
+    "K_A": 0.95,
+    "h": 3.0,
+    "sigma_lab_y": 0.025,
+    "sigma_batch_y": 0.02,
+    "nu": 5.0,
+    "sigma0": 0.035,
+    "rho_A": 0.1,
+    "y_phys_min": 0.0,
+    "y_phys_max": 1.0
+  },
+  "inference": {
+    "engine": "pymc",
+    "chains": 4,
+    "tune": 3000,
+    "draws": 3000,
+    "target_accept": 0.99,
+    "random_seed": 20260630,
+    "n_sim": 150,
+    "n_laplace_draws": 2000,
+    "max_laplace_iter": 2000,
+    "save_traces": true,
+    "progressbar": true,
+    "cores": null
+  },
+  "output": {
+    "root": "outputs_manuscript_150_ta099",
+    "simulated_data_dir": "simulated_data",
+    "traces_dir": "posterior_traces",
+    "summaries_dir": "model_summaries",
+    "diagnostics_dir": "diagnostics",
+    "tables_dir": "tables",
+    "figures_dir": "figures",
+    "stan_models_dir": "stan_models"
+  },
+  "scenarios": [
+    {
+      "scenario_id": "descriptor_mismatch_nominal",
+      "description": "Main descriptor-mismatch scenario: response governed by reactive area while mass is the conventional descriptor.",
+      "n_replicates": 3,
+      "nu": 5.0,
+      "rho_A": 0.1,
+      "h": 3.0,
+      "K_A": 0.95,
+      "prior_mode": "nominal",
+      "y_phys_mode": "nominal"
+    }
+  ]
+}

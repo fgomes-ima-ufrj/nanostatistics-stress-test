@@ -1,0 +1,9 @@
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+statsmodels>=0.14
+matplotlib>=3.7
+arviz>=0.16
+pymc>=5.0
+# Optional Stan engine:
+# cmdstanpy>=1.2

@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# Exploratory, pilot, old, or backup outputs
+outputs/
+outputs_manuscript/
+outputs_manuscript_backup_100/
+outputs_pymc_pilot_099/
+
+# Large posterior traces and compressed archives
+*.nc
+*.zip
+posterior_traces/
+
+# Temporary local files
+*.tmp

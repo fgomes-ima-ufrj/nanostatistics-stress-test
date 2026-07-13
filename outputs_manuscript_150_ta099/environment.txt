@@ -1,0 +1,11 @@
+python: 3.10.20 (main, Mar 11 2026, 17:46:40) [GCC 14.3.0]
+platform: Linux-6.17.0-35-generic-x86_64-with-glibc2.39
+processor: x86_64
+numpy: 1.26.4
+pandas: 2.3.3
+scipy: 1.15.3
+statsmodels: 0.14.6
+matplotlib: 3.10.8
+pymc: 5.25.1
+arviz: 0.23.4
+cmdstanpy: NOT INSTALLED
