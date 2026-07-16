@@ -1,0 +1,421 @@
+{
+  "mass": {
+    "archive": "/dados/experimentos/auditorias/nanostatistics_audit/zenodo_files/posterior_traces_mass_150_ta099.zip",
+    "size_bytes": 4352614580,
+    "netcdf_count": 150,
+    "simulation_ids_min": 0,
+    "simulation_ids_max": 149,
+    "missing_simulation_ids_0_149": [],
+    "sampled_files": [
+      {
+        "member": "trace_mass_sdescriptor_mismatch_nominal_sim0.nc",
+        "groups": [
+          "posterior",
+          "posterior_predictive",
+          "sample_stats",
+          "observed_data",
+          "constant_data"
+        ],
+        "has_posterior": true,
+        "has_posterior_predictive": true,
+        "has_sample_stats": true,
+        "has_observed_data": true,
+        "posterior_dims": {
+          "chain": 4,
+          "draw": 3000,
+          "lab": 3,
+          "batch": 4
+        },
+        "posterior_variables": [
+          "a_lab",
+          "alpha",
+          "beta_m",
+          "c_batch",
+          "nu",
+          "nu_minus_two",
+          "sigma",
+          "sigma_batch",
+          "sigma_lab",
+          "z_batch",
+          "z_lab"
+        ],
+        "posterior_predictive_dims": {
+          "chain": 4,
+          "draw": 3000,
+          "obs": 288
+        },
+        "posterior_predictive_variables": [
+          "y_obs"
+        ],
+        "sample_stats_dims": {
+          "chain": 4,
+          "draw": 3000
+        },
+        "sample_stats_variables": [
+          "acceptance_rate",
+          "divergences",
+          "diverging",
+          "energy",
+          "energy_error",
+          "index_in_trajectory",
+          "largest_eigval",
+          "lp",
+          "max_energy_error",
+          "n_steps",
+          "perf_counter_diff",
+          "perf_counter_start",
+          "process_time_diff",
+          "reached_max_treedepth",
+          "smallest_eigval",
+          "step_size",
+          "step_size_bar",
+          "tree_depth"
+        ]
+      },
+      {
+        "member": "trace_mass_sdescriptor_mismatch_nominal_sim31.nc",
+        "groups": [
+          "posterior",
+          "posterior_predictive",
+          "sample_stats",
+          "observed_data",
+          "constant_data"
+        ],
+        "has_posterior": true,
+        "has_posterior_predictive": true,
+        "has_sample_stats": true,
+        "has_observed_data": true,
+        "posterior_dims": {
+          "chain": 4,
+          "draw": 3000,
+          "lab": 3,
+          "batch": 4
+        },
+        "posterior_variables": [
+          "a_lab",
+          "alpha",
+          "beta_m",
+          "c_batch",
+          "nu",
+          "nu_minus_two",
+          "sigma",
+          "sigma_batch",
+          "sigma_lab",
+          "z_batch",
+          "z_lab"
+        ],
+        "posterior_predictive_dims": {
+          "chain": 4,
+          "draw": 3000,
+          "obs": 288
+        },
+        "posterior_predictive_variables": [
+          "y_obs"
+        ],
+        "sample_stats_dims": {
+          "chain": 4,
+          "draw": 3000
+        },
+        "sample_stats_variables": [
+          "acceptance_rate",
+          "divergences",
+          "diverging",
+          "energy",
+          "energy_error",
+          "index_in_trajectory",
+          "largest_eigval",
+          "lp",
+          "max_energy_error",
+          "n_steps",
+          "perf_counter_diff",
+          "perf_counter_start",
+          "process_time_diff",
+          "reached_max_treedepth",
+          "smallest_eigval",
+          "step_size",
+          "step_size_bar",
+          "tree_depth"
+        ]
+      },
+      {
+        "member": "trace_mass_sdescriptor_mismatch_nominal_sim99.nc",
+        "groups": [
+          "posterior",
+          "posterior_predictive",
+          "sample_stats",
+          "observed_data",
+          "constant_data"
+        ],
+        "has_posterior": true,
+        "has_posterior_predictive": true,
+        "has_sample_stats": true,
+        "has_observed_data": true,
+        "posterior_dims": {
+          "chain": 4,
+          "draw": 3000,
+          "lab": 3,
+          "batch": 4
+        },
+        "posterior_variables": [
+          "a_lab",
+          "alpha",
+          "beta_m",
+          "c_batch",
+          "nu",
+          "nu_minus_two",
+          "sigma",
+          "sigma_batch",
+          "sigma_lab",
+          "z_batch",
+          "z_lab"
+        ],
+        "posterior_predictive_dims": {
+          "chain": 4,
+          "draw": 3000,
+          "obs": 288
+        },
+        "posterior_predictive_variables": [
+          "y_obs"
+        ],
+        "sample_stats_dims": {
+          "chain": 4,
+          "draw": 3000
+        },
+        "sample_stats_variables": [
+          "acceptance_rate",
+          "divergences",
+          "diverging",
+          "energy",
+          "energy_error",
+          "index_in_trajectory",
+          "largest_eigval",
+          "lp",
+          "max_energy_error",
+          "n_steps",
+          "perf_counter_diff",
+          "perf_counter_start",
+          "process_time_diff",
+          "reached_max_treedepth",
+          "smallest_eigval",
+          "step_size",
+          "step_size_bar",
+          "tree_depth"
+        ]
+      }
+    ]
+  },
+  "pvs": {
+    "archive": "/dados/experimentos/auditorias/nanostatistics_audit/zenodo_files/posterior_traces_pvs_150_ta099.zip",
+    "size_bytes": 4372873813,
+    "netcdf_count": 150,
+    "simulation_ids_min": 0,
+    "simulation_ids_max": 149,
+    "missing_simulation_ids_0_149": [],
+    "sampled_files": [
+      {
+        "member": "trace_pvs_sdescriptor_mismatch_nominal_sim0.nc",
+        "groups": [
+          "posterior",
+          "posterior_predictive",
+          "sample_stats",
+          "observed_data",
+          "constant_data"
+        ],
+        "has_posterior": true,
+        "has_posterior_predictive": true,
+        "has_sample_stats": true,
+        "has_observed_data": true,
+        "posterior_dims": {
+          "chain": 4,
+          "draw": 3000,
+          "lab": 3,
+          "batch": 4
+        },
+        "posterior_variables": [
+          "K_A",
+          "a_lab",
+          "c_batch",
+          "h",
+          "nu",
+          "nu_minus_two",
+          "rho_A",
+          "sigma0",
+          "sigma_batch",
+          "sigma_lab",
+          "y0",
+          "ymax",
+          "z_batch",
+          "z_lab"
+        ],
+        "posterior_predictive_dims": {
+          "chain": 4,
+          "draw": 3000,
+          "obs": 288
+        },
+        "posterior_predictive_variables": [
+          "y_obs"
+        ],
+        "sample_stats_dims": {
+          "chain": 4,
+          "draw": 3000
+        },
+        "sample_stats_variables": [
+          "acceptance_rate",
+          "divergences",
+          "diverging",
+          "energy",
+          "energy_error",
+          "index_in_trajectory",
+          "largest_eigval",
+          "lp",
+          "max_energy_error",
+          "n_steps",
+          "perf_counter_diff",
+          "perf_counter_start",
+          "process_time_diff",
+          "reached_max_treedepth",
+          "smallest_eigval",
+          "step_size",
+          "step_size_bar",
+          "tree_depth"
+        ]
+      },
+      {
+        "member": "trace_pvs_sdescriptor_mismatch_nominal_sim31.nc",
+        "groups": [
+          "posterior",
+          "posterior_predictive",
+          "sample_stats",
+          "observed_data",
+          "constant_data"
+        ],
+        "has_posterior": true,
+        "has_posterior_predictive": true,
+        "has_sample_stats": true,
+        "has_observed_data": true,
+        "posterior_dims": {
+          "chain": 4,
+          "draw": 3000,
+          "lab": 3,
+          "batch": 4
+        },
+        "posterior_variables": [
+          "K_A",
+          "a_lab",
+          "c_batch",
+          "h",
+          "nu",
+          "nu_minus_two",
+          "rho_A",
+          "sigma0",
+          "sigma_batch",
+          "sigma_lab",
+          "y0",
+          "ymax",
+          "z_batch",
+          "z_lab"
+        ],
+        "posterior_predictive_dims": {
+          "chain": 4,
+          "draw": 3000,
+          "obs": 288
+        },
+        "posterior_predictive_variables": [
+          "y_obs"
+        ],
+        "sample_stats_dims": {
+          "chain": 4,
+          "draw": 3000
+        },
+        "sample_stats_variables": [
+          "acceptance_rate",
+          "divergences",
+          "diverging",
+          "energy",
+          "energy_error",
+          "index_in_trajectory",
+          "largest_eigval",
+          "lp",
+          "max_energy_error",
+          "n_steps",
+          "perf_counter_diff",
+          "perf_counter_start",
+          "process_time_diff",
+          "reached_max_treedepth",
+          "smallest_eigval",
+          "step_size",
+          "step_size_bar",
+          "tree_depth"
+        ]
+      },
+      {
+        "member": "trace_pvs_sdescriptor_mismatch_nominal_sim99.nc",
+        "groups": [
+          "posterior",
+          "posterior_predictive",
+          "sample_stats",
+          "observed_data",
+          "constant_data"
+        ],
+        "has_posterior": true,
+        "has_posterior_predictive": true,
+        "has_sample_stats": true,
+        "has_observed_data": true,
+        "posterior_dims": {
+          "chain": 4,
+          "draw": 3000,
+          "lab": 3,
+          "batch": 4
+        },
+        "posterior_variables": [
+          "K_A",
+          "a_lab",
+          "c_batch",
+          "h",
+          "nu",
+          "nu_minus_two",
+          "rho_A",
+          "sigma0",
+          "sigma_batch",
+          "sigma_lab",
+          "y0",
+          "ymax",
+          "z_batch",
+          "z_lab"
+        ],
+        "posterior_predictive_dims": {
+          "chain": 4,
+          "draw": 3000,
+          "obs": 288
+        },
+        "posterior_predictive_variables": [
+          "y_obs"
+        ],
+        "sample_stats_dims": {
+          "chain": 4,
+          "draw": 3000
+        },
+        "sample_stats_variables": [
+          "acceptance_rate",
+          "divergences",
+          "diverging",
+          "energy",
+          "energy_error",
+          "index_in_trajectory",
+          "largest_eigval",
+          "lp",
+          "max_energy_error",
+          "n_steps",
+          "perf_counter_diff",
+          "perf_counter_start",
+          "process_time_diff",
+          "reached_max_treedepth",
+          "smallest_eigval",
+          "step_size",
+          "step_size_bar",
+          "tree_depth"
+        ]
+      }
+    ]
+  }
+}
