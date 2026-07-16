@@ -1,0 +1,20 @@
+{
+  "method": "recalculation from archived ArviZ NetCDF traces",
+  "domains": {
+    "narrow": [
+      0.02,
+      0.98
+    ],
+    "nominal": [
+      0.0,
+      1.0
+    ],
+    "broad": [
+      -0.05,
+      1.05
+    ]
+  },
+  "mass_pvs_theta": "NA",
+  "mass_pvs_joint": "NA",
+  "elapsed_seconds": 145.23610591888428
+}

@@ -1,0 +1,7 @@
+workflow,domain,n_simulations
+area,broad,150
+area,narrow,150
+area,nominal,150
+mass,broad,150
+mass,narrow,150
+mass,nominal,150
