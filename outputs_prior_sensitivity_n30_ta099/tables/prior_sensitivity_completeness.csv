@@ -1,0 +1,5 @@
+prior_mode,n_simulations
+broad,30
+mildly_misspecified,30
+narrow,30
+nominal,30
