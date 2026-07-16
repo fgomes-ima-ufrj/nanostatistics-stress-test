@@ -16,3 +16,7 @@ posterior_traces/
 
 # Temporary local files
 *.tmp
+
+# Prior-sensitivity NetCDF traces managed with Git LFS
+!outputs_prior_sensitivity_n30_ta099/traces/
+!outputs_prior_sensitivity_n30_ta099/traces/*.nc
