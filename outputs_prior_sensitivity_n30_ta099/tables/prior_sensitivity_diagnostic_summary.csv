@@ -1,0 +1,5 @@
+prior_mode,n_fits,n_simulations,fits_with_divergences,divergences_total,divergences_max,rhat_max,ess_bulk_min,ess_tail_min,bfmi_min,percent_fits_with_divergences
+broad,30,30,6,41.0,16.0,1.0,2089.0,1793.0,0.6959417175515273,20.0
+mildly_misspecified,30,30,6,30.0,12.0,1.0,1816.0,1304.0,0.6680557332320041,20.0
+narrow,30,30,7,57.0,42.0,1.0,1883.0,993.0,0.694488444830306,23.333333333333332
+nominal,30,30,6,38.0,15.0,1.0,1826.0,1892.0,0.6757443774216116,20.0
