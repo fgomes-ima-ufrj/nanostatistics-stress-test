@@ -121,9 +121,24 @@ predictive admissibility, or the overall inferential interpretation.
 
 ## Trace files
 
-The 90 NetCDF posterior trace files are not included in this GitHub directory
-because of their size. They remain preserved in the validated audit workspace
-and are intended for archival in the associated Zenodo release.
+The 90 NetCDF posterior trace files are included in the `traces` directory and
+are managed through Git Large File Storage.
+
+The collection contains:
+
+- 30 traces for the narrow prior;
+- 30 traces for the broad prior;
+- 30 traces for the mildly misspecified prior.
+
+The nominal traces were recovered from the previously archived final
+simulation run and are not duplicated in this directory.
+
+File-level SHA-256 hashes for all 90 NetCDF files are provided in:
+
+`SHA256SUMS_prior_sensitivity_traces_n30.txt`
+
+Git LFS must be installed before cloning or pulling the repository to retrieve
+the actual NetCDF files rather than only the LFS pointer objects.
 
 ## Directory contents
 
