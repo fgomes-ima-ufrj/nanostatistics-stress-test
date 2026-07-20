@@ -159,3 +159,39 @@ File-level SHA-256 hashes for the files included in this directory are
 provided in:
 
 `SHA256SUMS_prior_sensitivity_n30_ta099.txt`
+
+## Conservative zero-divergence subset
+
+The conservative paired subset was defined by excluding every simulation
+with one or more post-tuning divergent transitions under any of the four
+evaluated prior specifications: nominal, narrow, broad, and mildly
+misspecified.
+
+The original prior-sensitivity subset comprised 30 simulations selected
+without replacement using selection seed 20260716. Twenty simulations met
+the conservative retention criterion.
+
+The retained identifiers are provided in:
+
+`tables/conservative_zero_divergence_subset_n20.csv`
+
+A human-readable record is provided in:
+
+`tables/conservative_zero_divergence_subset_n20.txt`
+
+The complete 30-simulation filtering record is provided in:
+
+`tables/prior_sensitivity_divergence_filter_n30.csv`
+
+The excluded simulations and their prior-specific divergence burdens are
+provided in:
+
+`tables/excluded_divergent_subset_n10.csv`
+
+The associated integrity record is:
+
+`tables/SHA256SUMS_conservative_subset_n20.txt`
+
+The subset was derived directly from the validated simulation-by-prior
+diagnostic output. No model refitting, manual identifier selection, or
+trace-level inference was required.

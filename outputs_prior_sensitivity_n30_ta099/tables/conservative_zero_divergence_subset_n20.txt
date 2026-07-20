@@ -1,0 +1,55 @@
+Conservative zero-divergence subset
+
+Selection criterion:
+A simulation was retained only when it had zero post-tuning divergent
+transitions under all four evaluated prior specifications:
+nominal, narrow, broad, and mildly misspecified.
+
+Selection seed for the original 30-simulation prior-sensitivity subset:
+20260716
+
+Number of simulations evaluated:
+30
+
+Number retained:
+20
+
+Retained simulation identifiers:
+0
+8
+10
+12
+17
+18
+34
+52
+58
+67
+69
+70
+77
+89
+102
+114
+115
+119
+125
+126
+
+Number excluded:
+10
+
+Excluded simulation identifiers:
+7
+39
+46
+47
+59
+66
+101
+105
+106
+112
+
+Total divergent transitions across the 30 simulations and four priors:
+166
